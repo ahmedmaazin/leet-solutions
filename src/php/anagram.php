@@ -3,9 +3,10 @@
 /**
  * Is anagram.
  *
- * Given two strings s and t , write a function to determine if t is an anagram of s.
- * Example: Input: s = "anagram", t = "nagaram" Output: true
- * Problem Link: https://leetcode.com/problems/valid-anagram
+ * Description: Given two strings s and t , write a function to determine if t is an anagram of s.
+ *
+ * Example: Input: s = "anagram", t = "nagaram" Output: true.
+ * Problem Link: https://leetcode.com/problems/valid-anagram.
  *
  * @param String $s
  * @param String $t
