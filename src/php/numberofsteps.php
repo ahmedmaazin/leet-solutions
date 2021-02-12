@@ -40,3 +40,9 @@ function numberOfSteps($num)
 
     return $step;
 }
+
+// example.
+$num = 14;
+
+$output = numberOfSteps($num);
+print_r("Output: " . $output . "\n");

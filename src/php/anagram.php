@@ -33,10 +33,17 @@ function isAnagram($s, $t)
     }
 
     for ($i = 0; $i < 256; $i++) {
-        if ($sWeight[$i] != $tWeight[$i]) {
+        if ($sWeight[$i] !== $tWeight[$i]) {
             return false;
         }
     }
 
     return true;
 }
+
+// example.
+$s = "anagram";
+$t = "nagara";
+
+$output = isAnagram($s, $t);
+var_dump($output);
