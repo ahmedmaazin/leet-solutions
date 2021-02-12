@@ -1,2 +1,2 @@
-# leet-solutions
-LeetCode Solutions
+# LeetCode Solutions
+LeetCode Solutions in PHP
