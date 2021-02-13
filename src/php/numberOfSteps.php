@@ -1,4 +1,5 @@
 <?php
+error_reporting(error_reporting() & ~E_NOTICE);
 
 /**
  * Number of steps to reduce a number to zero.
